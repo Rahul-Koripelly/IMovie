@@ -15,7 +15,7 @@ export const MovieDetailed = () => {
       
     }
     fetchMovie();
-  });
+  },[params.id]);
 
   
   useEffect(()=> {
